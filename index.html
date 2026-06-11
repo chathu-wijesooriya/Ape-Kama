@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ape Kama - Taste the Heritage of Sri Lanka</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header" id="dynamic-navbar">
+        <div class="nav-container">
+            <a href="#home" class="brand-logo">Ape Kama</a>
+            <nav class="navigation-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#magic-menu">Menu</a>
+                <a href="#offers-carousel">Offers</a>
+                <a href="#order-section">Contact</a>
+            </nav>
+            <div class="search-trigger-wrapper">
+                <input type="text" id="navbar-search-input" placeholder="Search dish heritage...">
+                <button type="button" class="nav-search-btn" aria-label="Search Submit"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero-viewport">
+        <div class="hero-media-cover"></div>
+        <div class="hero-inner-content">
+            <h1 class="hero-brand">Ape Kama</h1>
+            <h2 class="hero-motto">Taste the Heritage of Sri Lanka</h2>
+            <p class="hero-elevator-pitch">Experience the authentic taste of Sri Lankan heritage cuisine.</p>
+            <div class="hero-action-row">
+                <a href="#order-section" class="btn btn-pill btn-orange-filled">Order Now</a>
+                <a href="#reservation-section" class="btn btn-pill btn-cream-outline">Reserve Table</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-heritage-block context-spice-trigger">
+        <div class="section-wrapper">
+            <h2 class="block-heading-standard">Our Heritage Story</h2>
+            <div class="about-editorial-grid">
+                <div class="editorial-text-col">
+                    <p class="editorial-paragraph">For generations, Sri Lankan cuisine has been a celebration of culture, family, and tradition. At Ape Kama, we preserve these treasured recipes using fresh local ingredients, traditional cooking techniques, and the rich flavors passed down through generations.</p>
+                    <p class="editorial-paragraph">From handcrafted Pittu and aromatic Leaf Rice to authentic Bamboo Rice and village-style desserts, every dish tells a story of Sri Lanka's culinary heritage.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="house-favourites" class="favourites-showcase-block">
+        <div class="section-wrapper">
+            <h2 class="block-heading-standard">Our House Favourites</h2>
+            <div class="favourites-static-grid">
+                
+                <div class="favourites-static-card" style="position: relative; overflow: hidden; min-height: 440px; display: flex; flex-direction: column; justify-content: flex-end; border-radius: 16px;">
+                    <img src="images/menu/sub-Tandoori Chicken Bamboo.jpg" alt="Tandoori Chicken Bamboo Rice" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(0,0,0,0.9) 35%, rgba(0,0,0,0.2) 100%); z-index: 2;"></div>
+                    
+                    <div class="fav-data-wrapper" style="position: relative; z-index: 3; padding: 25px; color: #ffffff;">
+                        <h3 style="color: #ffffff; margin-bottom: 4px; font-size: 1.4rem; font-family: 'Playfair Display', serif;">Tandoori Chicken Bamboo Rice</h3>
+                        <div class="fav-price-tag" style="color: #e65c00; font-weight: 700; font-size: 1.1rem; margin-bottom: 8px;">Rs. 2,350</div>
+                        <p style="color: #e0e0e0; margin: 0 0 16px 0; line-height: 1.5; font-size: 0.95rem;">Slow-cooked bamboo rice infused with aromatic spices and served with juicy tandoori chicken.</p>
+                        
+                        <a href="#order-section" style="display: block; text-align: center; background-color: #e65c00; color: #ffffff; padding: 12px 24px; font-weight: 600; text-decoration: none; font-size: 1rem; border-radius: 30px 4px 30px 4px; transition: background 0.3s ease;">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="favourites-static-card" style="position: relative; overflow: hidden; min-height: 440px; display: flex; flex-direction: column; justify-content: flex-end; border-radius: 16px;">
+                    <img src="images/menu/sub-Garlic Corn.jpg" alt="Garlic Corn" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(0,0,0,0.9) 35%, rgba(0,0,0,0.2) 100%); z-index: 2;"></div>
+                    
+                    <div class="fav-data-wrapper" style="position: relative; z-index: 3; padding: 25px; color: #ffffff;">
+                        <h3 style="color: #ffffff; margin-bottom: 4px; font-size: 1.4rem; font-family: 'Playfair Display', serif;">Garlic Corn</h3>
+                        <div class="fav-price-tag" style="color: #e65c00; font-weight: 700; font-size: 1.1rem; margin-bottom: 8px;">Rs. 850</div>
+                        <p style="color: #e0e0e0; margin: 0 0 16px 0; line-height: 1.5; font-size: 0.95rem;">Flame-grilled sweet corn tossed with garlic butter and local herbs.</p>
+                        
+                        <a href="#order-section" style="display: block; text-align: center; background-color: #e65c00; color: #ffffff; padding: 12px 24px; font-weight: 600; text-decoration: none; font-size: 1rem; border-radius: 30px 4px 30px 4px; transition: background 0.3s ease;">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="favourites-static-card" style="position: relative; overflow: hidden; min-height: 440px; display: flex; flex-direction: column; justify-content: flex-end; border-radius: 16px;">
+                    <img src="images/menu/sub-Rulang Pittu.jpg" alt="Rulang Pittu" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(0,0,0,0.9) 35%, rgba(0,0,0,0.2) 100%); z-index: 2;"></div>
+                    
+                    <div class="fav-data-wrapper" style="position: relative; z-index: 3; padding: 25px; color: #ffffff;">
+                        <h3 style="color: #ffffff; margin-bottom: 4px; font-size: 1.4rem; font-family: 'Playfair Display', serif;">Rulang Pittu</h3>
+                        <div class="fav-price-tag" style="color: #e65c00; font-weight: 700; font-size: 1.1rem; margin-bottom: 8px;">Rs. 950</div>
+                        <p style="color: #e0e0e0; margin: 0 0 16px 0; line-height: 1.5; font-size: 0.95rem;">Traditional Sri Lankan pittu prepared with roasted rice flour and fresh coconut.</p>
+                        
+                        <a href="#order-section" style="display: block; text-align: center; background-color: #e65c00; color: #ffffff; padding: 12px 24px; font-weight: 600; text-decoration: none; font-size: 1rem; border-radius: 30px 4px 30px 4px; transition: background 0.3s ease;">Order Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="house-featured" class="featured-interactive-block context-spice-trigger">
+        <div class="section-wrapper">
+            <h2 class="block-heading-standard">Our House Featured Items</h2>
+            <div id="main-cards-injection-grid" class="cards-layout-matrix">
+                </div>
+        </div>
+    </section>
+
+    <section id="magic-menu"
+         class="magic-menu-block context-spice-trigger">
+
+    <!-- Floating Spice Layer -->
+    <div id="spice-parallax-canvas"
+         class="spice-canvas-overlay">
+    </div>
+
+    <div class="section-wrapper">
+
+        <h2 class="block-heading-standard">
+            Our Magic Menu
+        </h2>
+
+        <div class="menu-orchestrator-ui">
+
+            <div class="category-tabs-row"
+                 role="tablist">
+
+                <button type="button"
+                        class="tab-pill-btn active-tab"
+                        data-target-filter="all">
+                    All Items
+                </button>
+
+                <button type="button"
+                        class="tab-pill-btn"
+                        data-target-filter="food">
+                    Foods
+                </button>
+
+                <button type="button"
+                        class="tab-pill-btn"
+                        data-target-filter="desserts">
+                    Desserts
+                </button>
+
+                <button type="button"
+                        class="tab-pill-btn"
+                        data-target-filter="drinks">
+                    Drinks
+                </button>
+
+            </div>
+
+            <div class="filter-search-container">
+
+                <input
+                    type="text"
+                    id="menu-live-search-field"
+                    placeholder="Filter magic menu items...">
+
+                <i class="fas fa-filter"></i>
+
+            </div>
+
+        </div>
+
+        <div id="magic-menu-injection-grid"
+             class="cards-layout-matrix">
+        </div>
+
+    </div>
+
+</section>
+
+    <section id="gallery-showcase" class="gallery-masonry-block">
+        <div class="section-wrapper">
+            <h2 class="block-heading-standard">Visual Heritage Gallery</h2>
+            
+            <div class="gallery-masonry-grid">
+                <div class="gallery-asset-frame" data-gallery-category="food">
+    <img src="images/gallery-food1.jpg" alt="Traditional Sri Lankan Feast" style="width: 100%; height: 220px; object-fit: cover; display: block; transition: var(--transition-standard);">
+</div>
+<div class="gallery-asset-frame" data-gallery-category="interior">
+    <img src="images/gallery-interior.jpg" alt="Ape Kama Restaurant Interior" style="width: 100%; height: 220px; object-fit: cover; display: block; transition: var(--transition-standard);">
+</div>
+<div class="gallery-asset-frame" data-gallery-category="cooking">
+    <img src="images/gallery-cooking1.jpg" alt="Traditional Clay Pot Cooking" style="width: 100%; height: 220px; object-fit: cover; display: block; transition: var(--transition-standard);">
+</div>
+<div class="gallery-asset-frame" data-gallery-category="decor">
+    <img src="images/gallery-decor.jpg" alt="Sri Lankan Cultural Decorations" style="width: 100%; height: 220px; object-fit: cover; display: block; transition: var(--transition-standard);">
+</div>
+<div class="gallery-asset-frame" data-gallery-category="food">
+    <img src="images/gallery-food2.jpg" alt="Authentic Sri Lankan Curries" style="width: 100%; height: 220px; object-fit: cover; display: block; transition: var(--transition-standard);">
+</div>
+<div class="gallery-asset-frame" data-gallery-category="cooking">
+    <img src="images/gallery-cooking2.jpg" alt="Hearth Fire Village Kitchen" style="width: 100%; height: 220px; object-fit: cover; display: block; transition: var(--transition-standard);">
+</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="offers-carousel" class="offers-carousel-block context-spice-trigger">
+        <div class="section-wrapper">
+            <h2 class="block-heading-standard">Today's Magical Offers</h2>
+            
+            <div class="carousel-viewport-shell">
+                <div class="carousel-slider-track" id="magical-offers-track">
+                    
+                    <div class="carousel-item-slide slide-state-active">
+                        <div class="premium-offer-card">
+                            <span class="offer-card-badge">Combo Pack</span>
+                            <h3>Family Feast Combo</h3>
+                            <div class="offer-card-price">Rs. 6,500</div>
+                            <p class="offer-card-text">A generous family feast featuring Bamboo Rice, Pittu, curries, desserts, and refreshing beverages for four.</p>
+                            <a href="#order-section" class="btn btn-pill btn-orange-filled">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item-slide">
+                        <div class="premium-offer-card">
+                            <span class="offer-card-badge">Weekend Only</span>
+                            <h3>Heritage Weekend Special</h3>
+                            <div class="offer-card-price">Rs. 4,950</div>
+                            <p class="offer-card-text">Enjoy our chef's traditional favorites paired with handcrafted village desserts.</p>
+                            <a href="#order-section" class="btn btn-pill btn-orange-filled">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item-slide">
+                        <div class="premium-offer-card">
+                            <span class="offer-card-badge">Festive Exclusive</span>
+                            <h3>Festival Celebration Pack</h3>
+                            <div class="offer-card-price">Rs. 8,500</div>
+                            <p class="offer-card-text">A premium festive dining experience designed for family gatherings and celebrations.</p>
+                            <a href="#order-section" class="btn btn-pill btn-orange-filled">Order Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button type="button" class="carousel-nav-arrow arrow-left" id="trigger-offer-prev" aria-label="Previous Slide"><i class="fas fa-chevron-left"></i></button>
+                <button type="button" class="carousel-nav-arrow arrow-right" id="trigger-offer-next" aria-label="Next Slide"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="what-we-offer" class="what-we-offer-block">
+        <div class="section-wrapper">
+            <h2 class="block-heading-hidden" style="display:none;">What We Offer</h2>
+            
+            <div class="synchronized-rail-container">
+                <div class="rail-text-content-viewport">
+                    
+                    <div class="rail-text-data-node slide-state-active" data-rail-index="0">
+                        <h3>Online Ordering</h3>
+                        <p>Freshly prepared meals delivered to your doorstep.</p>
+                    </div>
+
+                    <div class="rail-text-data-node" data-rail-index="1">
+                        <h3>Table Reservation</h3>
+                        <p>Reserve your favorite dining spot with ease.</p>
+                    </div>
+
+                    <div class="rail-text-data-node" data-rail-index="2">
+                        <h3>Family Combos</h3>
+                        <p>Traditional meals crafted for sharing and celebration.</p>
+                    </div>
+
+                    <div class="rail-text-data-node" data-rail-index="3">
+                        <h3>Festival Discounts</h3>
+                        <p>Special seasonal promotions inspired by Sri Lankan festivals.</p>
+                    </div>
+
+                    <div class="rail-text-data-node" data-rail-index="4">
+                        <h3>Weekend Specials</h3>
+                        <p>Exclusive chef-crafted dishes available every weekend.</p>
+                    </div>
+
+                </div>
+
+                <div class="rail-graphic-icon-viewport">
+                    <div class="vector-icon-node node-index-0 slide-state-active"><i class="fas fa-truck-fast"></i></div>
+                    <div class="vector-icon-node node-index-1"><i class="fas fa-chair"></i></div>
+                    <div class="vector-icon-node node-index-2"><i class="fas fa-people-group"></i></div>
+                    <div class="vector-icon-node node-index-3"><i class="fas fa-tags"></i></div>
+                    <div class="vector-icon-node node-index-4"><i class="fas fa-calendar-stars"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="order-section" class="form-processing-block">
+        <div class="section-wrapper">
+            <div class="form-structural-card">
+                <h3 class="form-card-title">Online Delivery & Pickup Order</h3>
+                <form id="submission-order-form" autocomplete="on">
+                    
+                    <div class="form-layout-group">
+                        <label for="order_customer_name">Name</label>
+                        <input type="text" id="order_customer_name" name="order_customer_name" required>
+                    </div>
+
+                    <div class="form-layout-group">
+                        <label for="order_customer_phone">Phone</label>
+                        <input type="tel" id="order_customer_phone" name="order_customer_phone" required>
+                    </div>
+
+                    <div class="form-layout-group">
+                        <label for="order_customer_email">Email</label>
+                        <input type="email" id="order_customer_email" name="order_customer_email" required>
+                    </div>
+
+                    <div class="form-layout-group">
+                        <label for="order_dispatch_type">Delivery / Pickup</label>
+                        <select id="order_dispatch_type" name="order_dispatch_type" required>
+                            <option value="">-- Select Distribution Route --</option>
+                            <option value="Delivery">Delivery Around Colombo Hub</option>
+                            <option value="Pickup">Self-Pickup at Rajagiriya Outlet</option>
+                        </select>
+                    </div>
+
+                    <div class="form-layout-group">
+                        <label for="order_composition_details">Order Details</label>
+                        <textarea id="order_composition_details" name="order_composition_details" rows="4" placeholder="List items along with respective structural quantities (e.g., 2x Tandoori Chicken Bamboo Rice, 3x King Coconut)..." required></textarea>
+                    </div>
+
+                    <div class="form-layout-group">
+                        <label for="order_special_notes">Special Notes</label>
+                        <textarea id="order_special_notes" name="order_special_notes" rows="2" placeholder="Allergies, spice levels adjustments, delivery landmarks..."></textarea>
+                    </div>
+
+                    <button type="submit" id="submit-btn-order" class="btn btn-pill btn-submit-action">Place Food Order</button>
+                </form>
+                
+                <div id="order-form-async-response" class="form-async-status-box"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservation-section" class="form-processing-block functional-dark-theme">
+        <div class="section-wrapper">
+            <div class="form-structural-card theme-variant-dark">
+                <h3 class="form-card-title">Book My Spot</h3>
+                <form id="submission-booking-form" autocomplete="off">
+                    
+                    <div class="form-layout-group">
+                        <label for="book_customer_name">Name</label>
+                        <input type="text" id="book_customer_name" name="book_customer_name" required>
+                    </div>
+
+                    <div class="form-layout-group">
+                        <label for="book_customer_phone">Phone</label>
+                        <input type="tel" id="book_customer_phone" name="book_customer_phone" required>
+                    </div>
+
+                    <div class="form-layout-group">
+                        <label for="book_guest_count">Guests (Max 8)</label>
+                        <input type="number" id="book_guest_count" name="book_guest_count" min="1" max="8" required>
+                    </div>
+
+                    <div class="form-layout-group">
+                        <label for="book_calendar_date">Date</label>
+                        <input type="date" id="book_calendar_date" name="book_calendar_date" required>
+                    </div>
+
+                    <div class="form-layout-group">
+                        <label for="book_schedule_time">Time (7:00 AM – 12:00 PM)</label>
+                        <select id="book_schedule_time" name="book_schedule_time" required>
+                            <option value="">-- Choose Slot --</option>
+                            <option value="07:00 AM">7:00 AM</option>
+                            <option value="08:30 AM">8:30 AM</option>
+                            <option value="10:00 AM">10:00 AM</option>
+                            <option value="11:30 AM">11:30 AM</option>
+                            <option value="12:00 PM">12:00 PM</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" id="submit-btn-booking" class="btn btn-pill btn-submit-action">Reserve Table</button>
+                </form>
+
+                <div id="booking-form-async-response" class="form-async-status-box"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews-showcase" class="customer-reviews-block">
+        <div class="section-wrapper">
+            <h2 class="block-heading-standard">Loved by Ape Kama Lovers</h2>
+            
+            <div class="reviews-viewport-viewport">
+                <div class="reviews-transforming-track" id="testimonials-moving-track">
+                    
+                    <div class="review-layout-slide">
+                        <div class="pizza-style-review-card">
+                            <div class="quote-icon-aesthetic">“</div>
+                            <div class="review-rating-stars">★★★★★</div>
+                            <p class="review-body-text">"The most authentic Sri Lankan food I have ever had in Colombo."</p>
+                            <div class="review-identity-footer">
+                                <div class="review-avatar-mock"><div class="review-avatar-mock">
+    <img src="images/avatars/user-nadeesha.jpg" alt="Nadeesha Perera" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+</div>
+                                </div>
+                                <span class="review-client-name">Nadeesha Perera</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-layout-slide">
+                        <div class="pizza-style-review-card">
+                            <div class="quote-icon-aesthetic">“</div>
+                            <div class="review-rating-stars">★★★★★</div>
+                            <p class="review-body-text">"The bamboo rice was exceptional. Every flavor felt genuinely traditional."</p>
+                            <div class="review-identity-footer">
+                                <div class="review-avatar-mock"><div class="review-avatar-mock">
+    <img src="images/avatars/user-Kasun Fernando.jpg" alt="Nadeesha Perera" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+</div>
+                                </div>
+                                <span class="review-client-name">Kasun Fernando</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-layout-slide">
+                        <div class="pizza-style-review-card">
+                            <div class="quote-icon-aesthetic">“</div>
+                            <div class="review-rating-stars">★★★★★</div>
+                            <p class="review-body-text">"Beautiful atmosphere, friendly staff, and unforgettable village-style dishes."</p>
+                            <div class="review-identity-footer">
+                                <div class="review-avatar-mock"><div class="review-avatar-mock">
+    <img src="images/avatars/user-Madhavi Silva.jpg" alt="Nadeesha Perera" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+</div>
+                                </div>
+                                <span class="review-client-name">Madhavi Silva</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-layout-slide">
+                        <div class="pizza-style-review-card">
+                            <div class="quote-icon-aesthetic">“</div>
+                            <div class="review-rating-stars">★★★★★</div>
+                            <p class="review-body-text">"A perfect blend of heritage and premium dining."</p>
+                            <div class="review-identity-footer">
+                                <div class="review-avatar-mock"><div class="review-avatar-mock">
+    <img src="images/avatars/user-Shanaka Jayasinghe.jpg" alt="Nadeesha Perera" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+</div>
+                                </div>
+                                <span class="review-client-name">Shanaka Jayasinghe</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-layout-slide">
+                        <div class="pizza-style-review-card">
+                            <div class="quote-icon-aesthetic">“</div>
+                            <div class="review-rating-stars">★★★★★</div>
+                            <p class="review-body-text">"The leaf rice selection is something every food lover should experience."</p>
+                            <div class="review-identity-footer">
+                                <div class="review-avatar-mock"><div class="review-avatar-mock">
+    <img src="images/avatars/user-Dilani.jpg" alt="Nadeesha Perera" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+</div>
+                                </div>
+                                <span class="review-client-name">Dilani Wickramasinghe</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="reviews-manual-navigation">
+                    <button type="button" class="review-step-btn" id="review-prev-trigger" aria-label="Review Left"><i class="fas fa-arrow-left"></i></button>
+                    <button type="button" class="review-step-btn" id="review-next-trigger" aria-label="Review Right"><i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="section-wrapper footer-grid-layout">
+            
+            <div class="footer-segment-col">
+                <h4 class="footer-col-title">Delivery Hub</h4>
+                <div class="delivery-operational-badge">
+                    <p class="hub-label"><i class="fas fa-map-location-dot"></i> Areas Covered:</p>
+                    <p class="hub-data-text">Colombo 01–15, Dehiwala, Mount Lavinia, Nugegoda, Maharagama, Battaramulla, Rajagiriya</p>
+                    <p class="hub-label" style="margin-top: 12px;"><i class="fas fa-clock"></i> Delivery Hours:</p>
+                    <p class="hub-data-text">7:00 AM – 12:00 PM</p>
+                </div>
+            </div>
+
+            <div class="footer-segment-col">
+                <h4 class="footer-col-title">Contact Us</h4>
+                <ul class="contact-details-list">
+                    <li><i class="fas fa-phone"></i> 0779874561</li>
+                    <li><i class="fab fa-whatsapp"></i> 0779874561</li>
+                    <li><i class="fas fa-envelope"></i> apekama@gmail.com</li>
+                    <li><i class="fas fa-building-columns"></i> Rajagiriya, Sri Lanka</li>
+                </ul>
+            </div>
+
+            <div class="footer-segment-col">
+                <h4 class="footer-col-title">Follow Our Story</h4>
+                <div class="social-links-row">
+                    <a href="https://facebook.com/apekama" target="_blank" rel="noopener" aria-label="Facebook Outlet"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/apekama" target="_blank" rel="noopener" aria-label="Instagram Outlet"><i class="fab fa-instagram"></i></a>
+                    <a href="https://tiktok.com/@apekama" target="_blank" rel="noopener" aria-label="TikTok Channel"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://youtube.com/@apekama" target="_blank" rel="noopener" aria-label="YouTube Station"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-copyright-banner">
+            <p>&copy; 2026 Ape Kama Heritage Restaurants. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/0779874561" class="whatsapp-sticky-fab-anchor" target="_blank" rel="noopener" aria-label="Direct Heritage WhatsApp Channel Connection Link">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <div id="interactive-popup-modal-shell" class="modal-backdrop-system">
+        <div class="modal-window-viewport">
+            <button type="button" class="modal-dismiss-cross-btn" id="dismiss-modal-trigger" aria-label="Dismiss Modal">&times;</button>
+            <div class="modal-split-body">
+                <div class="modal-left-gray-rail-viewport">
+                    <div class="modal-infinite-transforming-track" id="modal-subcards-injection-track">
+                        </div>
+                </div>
+                <div class="modal-right-details-panel" id="modal-static-details-panel">
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/database.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
